@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3" xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res"/><source path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/build/generated/res/rs/debug"/><source path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res"><file path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/values-zh-rCN/strings.xml" qualifiers="zh-rCN"><string name="exo_controls_previous_description">上一曲</string><string name="exo_controls_next_description">下一曲</string><string name="exo_controls_pause_description">暂停</string><string name="exo_controls_play_description">播放</string><string name="exo_controls_stop_description">停止</string><string name="exo_controls_rewind_description">快退</string><string name="exo_controls_fastforward_description">快进</string><string name="exo_controls_repeat_off_description">不重复播放</string><string name="exo_controls_repeat_one_description">重复播放一项</string><string name="exo_controls_repeat_all_description">全部重复播放</string><string name="exo_controls_shuffle_description">随机播放</string><string name="exo_controls_fullscreen_description">全屏模式</string><string name="exo_controls_vr_description">VR 模式</string><string name="exo_download_description">下载</string><string name="exo_download_notification_channel_name">下载内容</string><string name="exo_download_downloading">正在下载</string><string name="exo_download_completed">下载完毕</string><string name="exo_download_failed">下载失败</string><string name="exo_download_removing">正在移除下载内容</string><string name="exo_track_selection_title_video">视频</string><string name="exo_track_selection_title_audio">音频</string><string name="exo_track_selection_title_text">文字</string><string name="exo_track_selection_none">无</string><string name="exo_track_selection_auto">自动</string><string name="exo_track_unknown">未知</string><string name="exo_track_resolution">%1$d × %2$d</string><string name="exo_track_mono">单声道</string><string name="exo_track_stereo">立体声</string><string name="exo_track_surround">环绕声</string><string name="exo_track_surround_5_point_1">5.1 环绕声</string><string name="exo_track_surround_7_point_1">7.1 环绕声</string><string name="exo_track_role_alternate">替用轨</string><string name="exo_track_role_supplementary">补充轨</string><string name="exo_track_role_commentary">旁白</string><string name="exo_track_role_closed_captions">字幕</string><string name="exo_track_bitrate">%1$.2f Mbps</string><string name="exo_item_list">%1$s，%2$s</string><string name="media_error">没有找到 当前视频类型,或者不支持当前类型，依赖完整版</string><string name="exo_play_error_hint">播放异常,视频地址异常，或者网络不可用</string><string name="exo_play_btn_hnt">继续播放</string><string name="net_network_no_hint">您当前网络不可用,请检查你网络</string><string name="exo_play_reminder">提示</string><string name="exo_play_wifi_hint_no">您当前网络不是wifi，是否继续观看</string><string name="hint_replay_list">重新播放</string><array name="exo_video_switch_text">
+    <item>超清</item>
+    <item>高清</item>
+    <item>标清</item>
+  </array><string name="download_start_error">无法开始下载</string><string name="exo_fenge">/</string></file><file name="ic_replay_" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable/ic_replay_.xml" qualifiers="" type="drawable"/><file name="ic_exo_back" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable/ic_exo_back.xml" qualifiers="" type="drawable"/><file name="exo_bg_video_top" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable/exo_bg_video_top.9.png" qualifiers="" type="drawable"/><file name="ic_exo_pause" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable/ic_exo_pause.xml" qualifiers="" type="drawable"/><file name="exo_bg_video_bottom" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable/exo_bg_video_bottom.9.png" qualifiers="" type="drawable"/><file name="ic_fullscreen_exit_white" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable/ic_fullscreen_exit_white.xml" qualifiers="" type="drawable"/><file name="ic_sentiment_very_dissatisfied_white_48px" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable/ic_sentiment_very_dissatisfied_white_48px.xml" qualifiers="" type="drawable"/><file name="ic_exo_start" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable/ic_exo_start.xml" qualifiers="" type="drawable"/><file name="exo_error_bg" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable/exo_error_bg.xml" qualifiers="" type="drawable"/><file name="toggle_lock" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable/toggle_lock.xml" qualifiers="" type="drawable"/><file name="simple_video_dialog_progress_bg" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable/simple_video_dialog_progress_bg.xml" qualifiers="" type="drawable"/><file name="ic_volume_off_white_48px" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable/ic_volume_off_white_48px.xml" qualifiers="" type="drawable"/><file name="ic_brightness_6_white_48px" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable/ic_brightness_6_white_48px.xml" qualifiers="" type="drawable"/><file name="ic_black" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable/ic_black.png" qualifiers="" type="drawable"/><file name="ic_fullscreen_selector" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable/ic_fullscreen_selector.xml" qualifiers="" type="drawable"/><file name="seek_progress" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable/seek_progress.xml" qualifiers="" type="drawable"/><file name="ic_lock_closed" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable/ic_lock_closed.xml" qualifiers="" type="drawable"/><file name="ic_lock_open" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable/ic_lock_open.xml" qualifiers="" type="drawable"/><file name="simple_video_dialog_progress" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable/simple_video_dialog_progress.xml" qualifiers="" type="drawable"/><file name="exo_edit_mode_logo" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable/exo_edit_mode_logo.xml" qualifiers="" type="drawable"/><file name="btn_continue_drawable" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable/btn_continue_drawable.xml" qualifiers="" type="drawable"/><file name="ic_volume_up_white_48px" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable/ic_volume_up_white_48px.xml" qualifiers="" type="drawable"/><file name="ic_fullscreen_white" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable/ic_fullscreen_white.xml" qualifiers="" type="drawable"/><file name="list_view_back" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable/list_view_back.xml" qualifiers="" type="drawable"/><file name="track_selection_dialog" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/layout/track_selection_dialog.xml" qualifiers="" type="layout"/><file name="simple_exo_play_replay" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/layout/simple_exo_play_replay.xml" qualifiers="" type="layout"/><file name="simple_exo_belowview" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/layout/simple_exo_belowview.xml" qualifiers="" type="layout"/><file name="simple_exo_play_btn_hint" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/layout/simple_exo_play_btn_hint.xml" qualifiers="" type="layout"/><file name="simple_exo_playback_list_view" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/layout/simple_exo_playback_list_view.xml" qualifiers="" type="layout"/><file name="exo_track_selection_dialog" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/layout/exo_track_selection_dialog.xml" qualifiers="" type="layout"/><file name="simple_exo_mp3_control_view" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/layout/simple_exo_mp3_control_view.xml" qualifiers="" type="layout"/><file name="simple_exo_play_error" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/layout/simple_exo_play_error.xml" qualifiers="" type="layout"/><file name="simple_exo_screenshot" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/layout/simple_exo_screenshot.xml" qualifiers="" type="layout"/><file name="exo_list_divider" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/layout/exo_list_divider.xml" qualifiers="" type="layout"/><file name="simple_exo_video_progress_dialog" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/layout/simple_exo_video_progress_dialog.xml" qualifiers="" type="layout"/><file name="simple_video_audio_brightness_dialog" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/layout/simple_video_audio_brightness_dialog.xml" qualifiers="" type="layout"/><file name="exo_default_preview_layout" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/layout/exo_default_preview_layout.xml" qualifiers="" type="layout"/><file name="simple_exo_view" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/layout/simple_exo_view.xml" qualifiers="" type="layout"/><file name="exo_player_control_view" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/layout/exo_player_control_view.xml" qualifiers="" type="layout"/><file name="exo_playback_control_view" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/layout/exo_playback_control_view.xml" qualifiers="" type="layout"/><file name="default_video_window" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/layout/default_video_window.xml" qualifiers="" type="layout"/><file name="start_download_dialog" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/layout/start_download_dialog.xml" qualifiers="" type="layout"/><file name="simple_exo_play_load" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/layout/simple_exo_play_load.xml" qualifiers="" type="layout"/><file name="simple_exo_playback_top_view" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/layout/simple_exo_playback_top_view.xml" qualifiers="" type="layout"/><file name="simple_exo_play_lock" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/layout/simple_exo_play_lock.xml" qualifiers="" type="layout"/><file name="simple_exo_belowview_item" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/layout/simple_exo_belowview_item.xml" qualifiers="" type="layout"/><file name="exo_exo_video_switch_selector" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/color/exo_exo_video_switch_selector.xml" qualifiers="" type="color"/><file path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/values/styles.xml" qualifiers=""><style name="ExoMediaButton">
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">@dimen/exo_media_button_width</item>
+        <item name="android:layout_height">@dimen/exo_media_button_height</item>
+    </style><style name="ExoMediaButton.Previous">
+        <item name="android:src">@drawable/exo_controls_previous</item>
+        <item name="android:contentDescription">@string/exo_controls_previous_description</item>
+    </style><style name="ExoMediaButton.Next">
+        <item name="android:src">@drawable/exo_controls_next</item>
+        <item name="android:contentDescription">@string/exo_controls_next_description</item>
+    </style><style name="ExoMediaButton.FastForward">
+        <item name="android:src">@drawable/exo_controls_fastforward</item>
+        <item name="android:contentDescription">@string/exo_controls_fastforward_description</item>
+    </style><style name="ExoMediaButton.Rewind">
+        <item name="android:src">@drawable/exo_controls_rewind</item>
+        <item name="android:contentDescription">@string/exo_controls_rewind_description</item>
+    </style><style name="ExoMediaButton.Play">
+        <item name="android:src">@drawable/exo_controls_play</item>
+        <item name="android:contentDescription">@string/exo_controls_play_description</item>
+    </style><style name="ExoMediaButton.Pause">
+        <item name="android:src">@drawable/exo_controls_pause</item>
+        <item name="android:contentDescription">@string/exo_controls_pause_description</item>
+    </style><style name="ExoMediaButton.Shuffle">
+        <item name="android:src">@drawable/exo_controls_shuffle</item>
+        <item name="android:contentDescription">@string/exo_controls_shuffle_description</item>
+    </style><style name="ExoMediaTextSwitch">
+        <item name="android:id">@id/exo_video_switch</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">50dp</item>
+        <item name="android:layout_weight">0</item>
+        <item name="android:background">@null</item>
+        <item name="android:contentDescription">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:textColor">@color/exo_exo_video_switch_selector</item>
+        <item name="android:visibility">gone</item>
+    </style><style name="ExoMediaButton.Fullscreen">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:background">@android:color/holo_red_dark</item>
+        <item name="android:contentDescription">@null</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:visibility">visible</item>
+    </style><style name="ExoMediaTitleLayout">
+        <item name="android:id">@id/exo_controls_title</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:gravity">center_vertical|start</item>
+    </style><style name="ExoMediaTitle">
+        <item name="android:id">@id/exo_controls_title</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical|start</item>
+        <item name="android:lines">1</item>
+        <item name="android:paddingLeft">35dp</item>
+        <item name="android:paddingRight">@dimen/controls_title__marginRight</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style><style name="ExoMediaDuration">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_weight">0</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">12sp</item>
+    </style><style name="ExoMediaSpan">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:layout_weight">0</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">12sp</item>
+    </style><style name="ExoMediaControllerBottom">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:visibility">visible</item>
+    </style><style name="ExoMediaCurrPosition">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">12sp</item>
+    </style><style name="ExoMediaTimeBar">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginRight">1dp</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="bar_height">@dimen/timeBar_bar_height</item>
+        <item name="buffered_color">@color/timeBar_buffered_color</item>
+        <item name="played_color">@color/timeBar_played_color</item>
+        <item name="unplayed_color">@color/timeBar_unplayed_color</item>
+        <item name="scrubber_color">@color/timeBar_scrubber_color</item>
+    </style><style name="ExoMediaButton.Pause2">
+        <item name="android:layout_width">64dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:src">@drawable/ic_exo_pause</item>
+        <item name="android:contentDescription">@string/exo_controls_pause_description</item>
+    </style><style name="ExoMediaButton.Play2">
+        <item name="android:layout_width">64dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:src">@drawable/ic_exo_start</item>
+        <item name="android:contentDescription">@string/exo_controls_play_description</item>
+    </style><style name="MediaPreViewImage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:contentDescription">@null</item>
+    </style><style name="TrackSelectionDialogThemeOverlay" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="windowNoTitle">false</item>
+    </style><style name="ExoMediaLandTimeBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginRight">1dp</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:visibility">gone</item>
+        <item name="bar_height">@dimen/timeBar_bar_height</item>
+        <item name="buffered_color">@color/timeBar_buffered_color</item>
+        <item name="played_color">@color/timeBar_played_color</item>
+        <item name="unplayed_color">@color/timeBar_unplayed_color</item>
+        <item name="scrubber_color">@color/timeBar_scrubber_color</item>
+    </style><style name="ExoMediaTextSelection">
+        <item name="android:id">@id/exo_video_selection</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:contentDescription">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/exo_exo_video_switch_selector</item>
+        <item name="android:visibility">gone</item>
+    </style><style name="AnimationRightFade">
+        <item name="android:windowEnterAnimation">@anim/in_righttoleft</item>
+        <item name="android:windowExitAnimation">@anim/out_lefttoright</item>
+    </style></file><file path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/values/constants.xml" qualifiers=""><color name="exo_edit_mode_background_color">#FFF4F3F0</color><color name="simple_exo_style_Accent">#FF4081</color><color name="simple_exo_style_color">#005fff</color><color name="simple_exo_color_33">#33000000</color><color name="primary_dark">#3d3b3b</color><color name="simple_exo_color_switch_item">#18B582</color><color name="timeBar_buffered_color">@android:color/white</color><color name="timeBar_played_color">#FF7000</color><color name="timeBar_unplayed_color">#a5ffffff</color><color name="timeBar_scrubber_color">@color/simple_exo_color_switch_item</color><color name="exo_error_message_background_color">#AA000000</color><color name="exo_player_background_color">#000000</color></file><file path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/values/strings.xml" qualifiers=""><string name="exo_controls_previous_description">"Previous track"</string><string name="exo_controls_next_description">"Next track"</string><string name="exo_controls_pause_description">"Pause"</string><string name="exo_controls_play_description">"Play"</string><string name="exo_controls_stop_description">"Stop"</string><string name="exo_controls_rewind_description">"Rewind"</string><string name="exo_controls_fastforward_description">"Fast-forward"</string><string name="exo_controls_repeat_all_description">"Repeat all"</string><string name="exo_controls_repeat_off_description">"Repeat none"</string><string name="exo_controls_repeat_one_description">"Repeat one"</string><string name="exo_controls_shuffle_description">Shuffle</string><string name="exo_track_mono">Mono</string><string name="exo_track_stereo">Stereo</string><string name="exo_track_surround">Surround sound</string><string name="exo_track_surround_5_point_1">5.1 surround sound</string><string name="exo_track_surround_7_point_1">7.1 surround sound</string><string name="exo_track_role_alternate">Alternate</string><string name="exo_track_role_supplementary">Supplementary</string><string name="exo_track_role_commentary">Commentary</string><string name="exo_track_role_closed_captions">CC</string><string name="exo_controls_vr_description">VR mode</string><string name="media_error">The current video type is not found, or the current type is not supported, depending on the full version</string><string name="exo_play_error_hint">Play exception, video address exception, or network unavailable</string><string name="exo_play_btn_hnt">Continue to play</string><string name="net_network_no_hint">Your current network is unavailable, please check your network</string><string name="exo_play_reminder">hint</string><string name="exo_play_wifi_hint_no">Your current network is not wifi, do you continue to watch</string><string name="hint_replay_list">replay</string><array name="exo_video_switch_text">
+        <item>super</item>
+        <item>high</item>
+        <item>standard</item>
+    </array><string name="exo_controls_fullscreen_description">Modo de pantalla completa</string><string name="exo_download_description">Descargar</string><string name="exo_download_notification_channel_name">Descargas</string><string name="exo_download_downloading">Descargando</string><string name="exo_download_completed">Descarga de archivos completado</string><string name="exo_download_failed">No se ha podido descargar</string><string name="exo_download_removing">Quitando descargas</string><string name="exo_track_selection_title_video">Vídeo</string><string name="exo_track_selection_title_audio">Audio</string><string name="exo_track_selection_title_text">Texto</string><string name="exo_track_selection_none">Ninguna</string><string name="exo_track_selection_auto">Automático</string><string name="exo_track_unknown">Desconocido</string><string name="exo_track_resolution">%1$d×%2$d</string><string name="exo_track_bitrate">%1$.2f Mbps</string><string name="exo_item_list">%1$s, %2$s</string><string name="download_start_error">Failed to start download</string><string name="exo_fenge">/</string><string name="track_selection_title">Select tracks</string><string-array name="exo_video_speed_text">
+        <item>0.5x</item>
+        <item>1.0x</item>
+        <item>1.5x</item>
+        <item>2.0x</item>
+    </string-array></file><file path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/values/attrs.xml" qualifiers=""><attr format="integer" name="show_timeout"/><attr format="integer" name="rewind_increment"/><attr format="integer" name="fastforward_increment"/><attr format="reference" name="player_layout_id"/><attr format="reference" name="controller_layout_id"/><attr format="reference" name="show_shuffle_button"/><attr format="reference" name="player_fullscreen_image_selector"/><attr format="reference" name="default_artwork"/><attr format="boolean" name="hide_on_touch"/><attr format="reference" name="player_gesture_audio_layout_id"/><attr format="reference" name="player_gesture_bright_layout_id"/><attr format="reference" name="player_gesture_progress_layout_id"/><attr format="enum" name="resize_mode">
+        <enum name="fixed_16_9" value="0"/>
+        <enum name="fixed_4_3" value="1"/>
+        <enum name="match" value="2"/>
+        <enum name="fill" value="3"/>
+        <enum name="fit" value="4"/>
+        <enum name="origin" value="5"/>
+    </attr><attr format="enum" name="surface_type">
+        <enum name="none" value="0"/>
+        <enum name="surface_view" value="1"/>
+        <enum name="texture_view" value="2"/>
+        <enum name="spherical_view" value="3"/>
+    </attr><attr name="repeat_toggle_modes">
+        <flag name="none" value="0"/>
+        <flag name="one" value="1"/>
+        <flag name="all" value="2"/>
+    </attr><declare-styleable name="DefaultTimeBar">
+        <attr format="dimension" name="bar_height"/>
+        <attr format="dimension" name="touch_target_height"/>
+        <attr format="dimension" name="ad_marker_width"/>
+        <attr format="dimension" name="scrubber_enabled_size"/>
+        <attr format="dimension" name="scrubber_disabled_size"/>
+        <attr format="dimension" name="scrubber_dragged_size"/>
+        <attr format="reference" name="scrubber_drawable"/>
+        <attr format="color" name="played_color"/>
+        <attr format="color" name="scrubber_color"/>
+        <attr format="color" name="buffered_color"/>
+        <attr format="color" name="unplayed_color"/>
+        <attr format="color" name="ad_marker_color"/>
+        <attr format="color" name="played_ad_marker_color"/>
+    </declare-styleable><declare-styleable name="PlayerView">
+        <attr format="boolean" name="use_artwork"/>
+        <attr format="color" name="shutter_background_color"/>
+        <attr name="default_artwork"/>
+        <attr format="boolean" name="use_controller"/>
+        <attr name="hide_on_touch"/>
+        <attr format="boolean" name="hide_during_ads"/>
+        <attr format="boolean" name="auto_show"/>
+        <attr name="resize_mode"/>
+        <attr name="surface_type"/>
+        <attr name="player_layout_id"/>
+        
+        <attr name="show_timeout"/>
+        <attr name="rewind_increment"/>
+        <attr name="fastforward_increment"/>
+        <attr name="repeat_toggle_modes"/>
+        <attr name="show_shuffle_button"/>
+        <attr name="controller_layout_id"/>
+        
+        <attr format="boolean" name="show_buffering"/>
+        
+        <attr format="boolean" name="keep_content_on_player_reset"/>
+    </declare-styleable><declare-styleable name="PlayerControlView">
+        <attr name="show_timeout"/>
+        <attr name="rewind_increment"/>
+        <attr name="fastforward_increment"/>
+        <attr name="repeat_toggle_modes"/>
+        <attr name="show_shuffle_button"/>
+        <attr name="controller_layout_id"/>
+        <attr name="player_fullscreen_image_selector"/>
+    </declare-styleable><declare-styleable name="exoVideoAnim">
+        <attr format="dimension" name="circleRadius"/>
+        <attr format="dimension" name="circleSpacing"/>
+        <attr format="integer" name="cycle"/>
+    </declare-styleable><declare-styleable name="VideoPlayerView">
+        
+        <attr name="default_artwork"/>
+        
+        <attr format="reference" name="user_watermark"/>
+        
+        <attr name="hide_on_touch"/>
+        
+        <attr name="resize_mode"/>
+        
+        <attr name="surface_type"/>
+        
+        <attr name="show_timeout"/>
+        
+        <attr name="rewind_increment"/>
+        
+        <attr name="fastforward_increment"/>
+        
+        <attr name="player_layout_id"/>
+        
+        <attr name="controller_layout_id"/>
+        
+        <attr format="reference" name="player_replay_layout_id"/>
+        
+        <attr format="reference" name="player_error_layout_id"/>
+        
+        <attr format="reference" name="player_hint_layout_id"/>
+        
+        <attr format="reference" name="player_load_layout_id"/>
+        
+        <attr format="reference" name="player_preview_layout_id"/>
+        
+        <attr name="player_gesture_audio_layout_id"/>
+        
+        <attr name="player_gesture_bright_layout_id"/>
+        
+        <attr name="player_gesture_progress_layout_id"/>
+        
+        <attr format="boolean" name="player_list"/>
+        
+        <attr name="player_fullscreen_image_selector"/>
+        
+        <attr format="reference" name="player_back_image"/>
+        
+        <attr format="reference" name="player_custom_layout_id"/>
+        
+        <attr format="reference" name="screenshot_layout_id"/>
+        
+        <attr format="reference" name="ad_layout_id"/>
+    </declare-styleable><declare-styleable name="GestureControlView">
+        
+        <attr name="player_gesture_audio_layout_id"/>
+        
+        <attr name="player_gesture_bright_layout_id"/>
+        
+        <attr name="player_gesture_progress_layout_id"/>
+    </declare-styleable></file><file path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/values/dimen.xml" qualifiers=""><dimen name="dp30">40dp</dimen><dimen name="controls_title__marginRight">60dp</dimen><dimen name="exo_media_button_width">35dp</dimen><dimen name="exo_media_button_height">35dp</dimen><dimen name="exo_media_button_width_2">60dp</dimen><dimen name="exo_media_button_height_2">50dp</dimen><dimen name="timeBar_bar_height">2dp</dimen></file><file path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/values/ids.xml" qualifiers=""><item name="exo_video_switch" type="id"/><item name="exo_default_play" type="id"/><item name="exo_preview_image_bottom" type="id"/><item name="exo_preview_image" type="id"/><item name="exo_video_fullscreen" type="id"/><item name="exo_controls_back" type="id"/><item name="exo_player_watermark" type="id"/><item name="exo_loading_show_text" type="id"/><item name="exo_player_screenshot" type="id"/><item name="exo_controls_title" type="id"/><item name="exo_controller_top" type="id"/><item name="exo_controller_bottom" type="id"/><item name="exo_controller_right" type="id"/><item name="exo_controller_left" type="id"/><item name="exo_controller_barrage" type="id"/><item name="exo_screenshot" type="id"/><item name="exo_player_btn_hint_btn_id" type="id"/><item name="exo_player_error_btn_id" type="id"/><item name="exo_player_replay_btn_id" type="id"/><item name="exo_player_lock_btn_id" type="id"/><item name="exo_preview_play" type="id"/><item name="exo_content_frame" type="id"/><item name="exo_shutter" type="id"/><item name="exo_subtitles" type="id"/><item name="exo_artwork" type="id"/><item name="exo_controller_placeholder" type="id"/><item name="exo_controller" type="id"/><item name="exo_overlay" type="id"/><item name="exo_play" type="id"/><item name="exo_pause" type="id"/><item name="exo_rew" type="id"/><item name="exo_ffwd" type="id"/><item name="exo_prev" type="id"/><item name="exo_next" type="id"/><item name="exo_shuffle" type="id"/><item name="exo_repeat_toggle" type="id"/><item name="exo_duration" type="id"/><item name="exo_position" type="id"/><item name="exo_progress" type="id"/><item name="exo_buffering" type="id"/><item name="exo_error_message" type="id"/><item name="exo_video_fullscreen2" type="id"/><item name="exo_land_progress" type="id"/><item name="exo_video_selection" type="id"/></file><file path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/values/drawables.xml" qualifiers=""><drawable name="exo_controls_play">@drawable/exo_icon_play</drawable><drawable name="exo_controls_pause">@drawable/exo_icon_pause</drawable><drawable name="exo_controls_next">@drawable/exo_icon_next</drawable><drawable name="exo_controls_previous">@drawable/exo_icon_previous</drawable><drawable name="exo_controls_fastforward">@drawable/exo_icon_fastforward</drawable><drawable name="exo_controls_rewind">@drawable/exo_icon_rewind</drawable><drawable name="exo_notification_play">@drawable/exo_icon_play</drawable><drawable name="exo_notification_pause">@drawable/exo_icon_pause</drawable><drawable name="exo_notification_next">@drawable/exo_icon_next</drawable><drawable name="exo_notification_previous">@drawable/exo_icon_previous</drawable><drawable name="exo_notification_fastforward">@drawable/exo_icon_fastforward</drawable><drawable name="exo_notification_rewind">@drawable/exo_icon_rewind</drawable><drawable name="exo_notification_stop">@drawable/exo_icon_stop</drawable></file><file path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/values-us/strings.xml" qualifiers="us"><string name="exo_controls_previous_description">Previous track</string><string name="exo_controls_next_description">Next track</string><string name="exo_controls_pause_description">Pause</string><string name="exo_controls_play_description">Play</string><string name="exo_controls_stop_description">Stop</string><string name="exo_controls_rewind_description">Rewind</string><string name="exo_controls_fastforward_description">Fast forward</string><string name="exo_controls_repeat_off_description">Repeat none</string><string name="exo_controls_repeat_one_description">Repeat one</string><string name="exo_controls_repeat_all_description">Repeat all</string><string name="exo_controls_shuffle_description">Shuffle</string><string name="exo_controls_fullscreen_description">Fullscreen mode</string><string name="exo_controls_vr_description">VR mode</string><string name="exo_download_description">Download</string><string name="exo_download_notification_channel_name">Downloads</string><string name="exo_download_downloading">Downloading</string><string name="exo_download_completed">Download completed</string><string name="exo_download_failed">Download failed</string><string name="exo_download_removing">Removing downloads</string><string name="exo_track_selection_title_video">Video</string><string name="exo_track_selection_title_audio">Audio</string><string name="exo_track_selection_title_text">Text</string><string name="exo_track_selection_none">None</string><string name="exo_track_selection_auto">Auto</string><string name="exo_track_unknown">Unknown</string><string name="exo_track_resolution"><ns1:g example="1024" id="width">%1$d</ns1:g> × <ns1:g example="768" id="height">%2$d</ns1:g></string><string name="exo_track_mono">Mono</string><string name="exo_track_stereo">Stereo</string><string name="exo_track_surround">Surround sound</string><string name="exo_track_surround_5_point_1">5.1 surround sound</string><string name="exo_track_surround_7_point_1">7.1 surround sound</string><string name="exo_track_role_alternate">Alternate</string><string name="exo_track_role_supplementary">Supplementary</string><string name="exo_track_role_commentary">Commentary</string><string name="exo_track_role_closed_captions">CC</string><string name="exo_track_bitrate"><ns1:g example="5.2" id="bitrate">%1$.2f</ns1:g> Mbps</string><string name="exo_item_list"><ns1:g example="apple, pear" id="list">%1$s</ns1:g>, <ns1:g example="banana" id="item">%2$s</ns1:g></string><string name="media_error">The current video type is not found, or the current type is not supported, depending on the full version</string><string name="exo_play_error_hint">Play exception, video address exception, or network unavailable</string><string name="exo_play_btn_hnt">Continue to play</string><string name="net_network_no_hint">Your current network is unavailable, please check your network</string><string name="exo_play_reminder">hint</string><string name="exo_play_wifi_hint_no">Your current network is not wifi, do you continue to watch</string><string name="hint_replay_list">replay</string><array name="exo_video_switch_text">
+    <item>super</item>
+    <item>high</item>
+    <item>standard</item>
+  </array><string name="download_start_error">Failed to start download</string><string name="exo_fenge">/</string></file><file name="exo_icon_pause" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xhdpi/exo_icon_pause.png" qualifiers="xhdpi-v4" type="drawable"/><file name="exo_icon_previous" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xhdpi/exo_icon_previous.png" qualifiers="xhdpi-v4" type="drawable"/><file name="exo_controls_fastforward" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xhdpi/exo_controls_fastforward.png" qualifiers="xhdpi-v4" type="drawable"/><file name="exo_icon_next" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xhdpi/exo_icon_next.png" qualifiers="xhdpi-v4" type="drawable"/><file name="exo_controls_repeat_all" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xhdpi/exo_controls_repeat_all.png" qualifiers="xhdpi-v4" type="drawable"/><file name="exo_icon_play" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xhdpi/exo_icon_play.png" qualifiers="xhdpi-v4" type="drawable"/><file name="exo_controls_repeat_off" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xhdpi/exo_controls_repeat_off.png" qualifiers="xhdpi-v4" type="drawable"/><file name="exo_controls_play" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xhdpi/exo_controls_play.png" qualifiers="xhdpi-v4" type="drawable"/><file name="exo_controls_pause" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xhdpi/exo_controls_pause.png" qualifiers="xhdpi-v4" type="drawable"/><file name="exo_controls_rewind" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xhdpi/exo_controls_rewind.png" qualifiers="xhdpi-v4" type="drawable"/><file name="exo_controls_shuffle" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xhdpi/exo_controls_shuffle.png" qualifiers="xhdpi-v4" type="drawable"/><file name="screenshot" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xhdpi/screenshot.png" qualifiers="xhdpi-v4" type="drawable"/><file name="exo_controls_next" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xhdpi/exo_controls_next.png" qualifiers="xhdpi-v4" type="drawable"/><file name="exo_controls_previous" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xhdpi/exo_controls_previous.png" qualifiers="xhdpi-v4" type="drawable"/><file name="exo_controls_fullscreen_exit" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xhdpi/exo_controls_fullscreen_exit.png" qualifiers="xhdpi-v4" type="drawable"/><file name="exo_icon_stop" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xhdpi/exo_icon_stop.png" qualifiers="xhdpi-v4" type="drawable"/><file name="exo_controls_fullscreen_enter" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xhdpi/exo_controls_fullscreen_enter.png" qualifiers="xhdpi-v4" type="drawable"/><file name="exo_icon_rewind" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xhdpi/exo_icon_rewind.png" qualifiers="xhdpi-v4" type="drawable"/><file name="exo_controls_repeat_one" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xhdpi/exo_controls_repeat_one.png" qualifiers="xhdpi-v4" type="drawable"/><file name="exo_icon_fastforward" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xhdpi/exo_icon_fastforward.png" qualifiers="xhdpi-v4" type="drawable"/><file name="exo_notification_small_icon" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xhdpi/exo_notification_small_icon.png" qualifiers="xhdpi-v4" type="drawable"/><file name="exo_icon_pause" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xxhdpi/exo_icon_pause.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="exo_icon_previous" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xxhdpi/exo_icon_previous.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="exo_controls_fastforward" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xxhdpi/exo_controls_fastforward.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="exo_icon_next" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xxhdpi/exo_icon_next.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="exo_controls_repeat_all" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xxhdpi/exo_controls_repeat_all.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="exo_icon_play" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xxhdpi/exo_icon_play.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="exo_controls_repeat_off" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xxhdpi/exo_controls_repeat_off.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="exo_controls_play" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xxhdpi/exo_controls_play.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="exo_controls_pause" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xxhdpi/exo_controls_pause.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="exo_controls_rewind" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xxhdpi/exo_controls_rewind.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="exo_controls_shuffle" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xxhdpi/exo_controls_shuffle.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="screenshot" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xxhdpi/screenshot.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="exo_controls_next" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xxhdpi/exo_controls_next.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="exo_controls_previous" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xxhdpi/exo_controls_previous.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="exo_controls_fullscreen_exit" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xxhdpi/exo_controls_fullscreen_exit.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="exo_icon_stop" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xxhdpi/exo_icon_stop.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="exo_controls_fullscreen_enter" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xxhdpi/exo_controls_fullscreen_enter.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="exo_icon_rewind" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xxhdpi/exo_icon_rewind.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="exo_controls_repeat_one" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xxhdpi/exo_controls_repeat_one.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="exo_icon_fastforward" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xxhdpi/exo_icon_fastforward.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="exo_notification_small_icon" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xxhdpi/exo_notification_small_icon.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="exo_icon_pause" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-hdpi/exo_icon_pause.png" qualifiers="hdpi-v4" type="drawable"/><file name="exo_icon_previous" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-hdpi/exo_icon_previous.png" qualifiers="hdpi-v4" type="drawable"/><file name="exo_controls_fastforward" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-hdpi/exo_controls_fastforward.png" qualifiers="hdpi-v4" type="drawable"/><file name="exo_icon_next" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-hdpi/exo_icon_next.png" qualifiers="hdpi-v4" type="drawable"/><file name="exo_controls_repeat_all" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-hdpi/exo_controls_repeat_all.png" qualifiers="hdpi-v4" type="drawable"/><file name="exo_icon_play" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-hdpi/exo_icon_play.png" qualifiers="hdpi-v4" type="drawable"/><file name="exo_controls_repeat_off" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-hdpi/exo_controls_repeat_off.png" qualifiers="hdpi-v4" type="drawable"/><file name="exo_controls_play" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-hdpi/exo_controls_play.png" qualifiers="hdpi-v4" type="drawable"/><file name="exo_controls_pause" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-hdpi/exo_controls_pause.png" qualifiers="hdpi-v4" type="drawable"/><file name="exo_controls_rewind" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-hdpi/exo_controls_rewind.png" qualifiers="hdpi-v4" type="drawable"/><file name="exo_controls_shuffle" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-hdpi/exo_controls_shuffle.png" qualifiers="hdpi-v4" type="drawable"/><file name="exo_controls_next" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-hdpi/exo_controls_next.png" qualifiers="hdpi-v4" type="drawable"/><file name="exo_controls_previous" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-hdpi/exo_controls_previous.png" qualifiers="hdpi-v4" type="drawable"/><file name="exo_controls_fullscreen_exit" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-hdpi/exo_controls_fullscreen_exit.png" qualifiers="hdpi-v4" type="drawable"/><file name="exo_icon_stop" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-hdpi/exo_icon_stop.png" qualifiers="hdpi-v4" type="drawable"/><file name="exo_controls_fullscreen_enter" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-hdpi/exo_controls_fullscreen_enter.png" qualifiers="hdpi-v4" type="drawable"/><file name="exo_icon_rewind" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-hdpi/exo_icon_rewind.png" qualifiers="hdpi-v4" type="drawable"/><file name="exo_controls_repeat_one" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-hdpi/exo_controls_repeat_one.png" qualifiers="hdpi-v4" type="drawable"/><file name="exo_icon_fastforward" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-hdpi/exo_icon_fastforward.png" qualifiers="hdpi-v4" type="drawable"/><file name="exo_notification_small_icon" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-hdpi/exo_notification_small_icon.png" qualifiers="hdpi-v4" type="drawable"/><file name="exo_icon_pause" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-ldpi/exo_icon_pause.png" qualifiers="ldpi-v4" type="drawable"/><file name="exo_icon_previous" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-ldpi/exo_icon_previous.png" qualifiers="ldpi-v4" type="drawable"/><file name="exo_icon_next" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-ldpi/exo_icon_next.png" qualifiers="ldpi-v4" type="drawable"/><file name="exo_controls_repeat_all" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-ldpi/exo_controls_repeat_all.png" qualifiers="ldpi-v4" type="drawable"/><file name="exo_icon_play" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-ldpi/exo_icon_play.png" qualifiers="ldpi-v4" type="drawable"/><file name="exo_controls_repeat_off" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-ldpi/exo_controls_repeat_off.png" qualifiers="ldpi-v4" type="drawable"/><file name="exo_controls_shuffle" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-ldpi/exo_controls_shuffle.png" qualifiers="ldpi-v4" type="drawable"/><file name="exo_controls_fullscreen_exit" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-ldpi/exo_controls_fullscreen_exit.png" qualifiers="ldpi-v4" type="drawable"/><file name="exo_icon_stop" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-ldpi/exo_icon_stop.png" qualifiers="ldpi-v4" type="drawable"/><file name="exo_controls_fullscreen_enter" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-ldpi/exo_controls_fullscreen_enter.png" qualifiers="ldpi-v4" type="drawable"/><file name="exo_icon_rewind" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-ldpi/exo_icon_rewind.png" qualifiers="ldpi-v4" type="drawable"/><file name="exo_controls_repeat_one" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-ldpi/exo_controls_repeat_one.png" qualifiers="ldpi-v4" type="drawable"/><file name="exo_icon_fastforward" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-ldpi/exo_icon_fastforward.png" qualifiers="ldpi-v4" type="drawable"/><file name="exo_notification_small_icon" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-ldpi/exo_notification_small_icon.png" qualifiers="ldpi-v4" type="drawable"/><file name="exo_icon_pause" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-anydpi-v21/exo_icon_pause.xml" qualifiers="anydpi-v21" type="drawable"/><file name="exo_controls_fastforward" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-anydpi-v21/exo_controls_fastforward.xml" qualifiers="anydpi-v21" type="drawable"/><file name="exo_icon_previous" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-anydpi-v21/exo_icon_previous.xml" qualifiers="anydpi-v21" type="drawable"/><file name="exo_icon_next" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-anydpi-v21/exo_icon_next.xml" qualifiers="anydpi-v21" type="drawable"/><file name="exo_controls_repeat_all" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-anydpi-v21/exo_controls_repeat_all.xml" qualifiers="anydpi-v21" type="drawable"/><file name="exo_icon_play" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-anydpi-v21/exo_icon_play.xml" qualifiers="anydpi-v21" type="drawable"/><file name="exo_controls_repeat_off" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-anydpi-v21/exo_controls_repeat_off.xml" qualifiers="anydpi-v21" type="drawable"/><file name="exo_controls_play" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-anydpi-v21/exo_controls_play.xml" qualifiers="anydpi-v21" type="drawable"/><file name="exo_controls_pause" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-anydpi-v21/exo_controls_pause.xml" qualifiers="anydpi-v21" type="drawable"/><file name="exo_controls_rewind" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-anydpi-v21/exo_controls_rewind.xml" qualifiers="anydpi-v21" type="drawable"/><file name="exo_controls_shuffle" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-anydpi-v21/exo_controls_shuffle.xml" qualifiers="anydpi-v21" type="drawable"/><file name="exo_controls_next" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-anydpi-v21/exo_controls_next.xml" qualifiers="anydpi-v21" type="drawable"/><file name="exo_controls_previous" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-anydpi-v21/exo_controls_previous.xml" qualifiers="anydpi-v21" type="drawable"/><file name="exo_controls_fullscreen_exit" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-anydpi-v21/exo_controls_fullscreen_exit.xml" qualifiers="anydpi-v21" type="drawable"/><file name="exo_controls_fullscreen_enter" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-anydpi-v21/exo_controls_fullscreen_enter.xml" qualifiers="anydpi-v21" type="drawable"/><file name="exo_icon_stop" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-anydpi-v21/exo_icon_stop.xml" qualifiers="anydpi-v21" type="drawable"/><file name="exo_icon_rewind" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-anydpi-v21/exo_icon_rewind.xml" qualifiers="anydpi-v21" type="drawable"/><file name="exo_controls_repeat_one" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-anydpi-v21/exo_controls_repeat_one.xml" qualifiers="anydpi-v21" type="drawable"/><file name="exo_icon_fastforward" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-anydpi-v21/exo_icon_fastforward.xml" qualifiers="anydpi-v21" type="drawable"/><file name="exo_icon_pause" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-mdpi/exo_icon_pause.png" qualifiers="mdpi-v4" type="drawable"/><file name="exo_icon_previous" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-mdpi/exo_icon_previous.png" qualifiers="mdpi-v4" type="drawable"/><file name="exo_icon_next" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-mdpi/exo_icon_next.png" qualifiers="mdpi-v4" type="drawable"/><file name="exo_controls_repeat_all" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-mdpi/exo_controls_repeat_all.png" qualifiers="mdpi-v4" type="drawable"/><file name="exo_icon_play" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-mdpi/exo_icon_play.png" qualifiers="mdpi-v4" type="drawable"/><file name="exo_controls_repeat_off" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-mdpi/exo_controls_repeat_off.png" qualifiers="mdpi-v4" type="drawable"/><file name="exo_controls_shuffle" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-mdpi/exo_controls_shuffle.png" qualifiers="mdpi-v4" type="drawable"/><file name="exo_controls_fullscreen_exit" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-mdpi/exo_controls_fullscreen_exit.png" qualifiers="mdpi-v4" type="drawable"/><file name="exo_icon_stop" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-mdpi/exo_icon_stop.png" qualifiers="mdpi-v4" type="drawable"/><file name="exo_controls_fullscreen_enter" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-mdpi/exo_controls_fullscreen_enter.png" qualifiers="mdpi-v4" type="drawable"/><file name="exo_icon_rewind" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-mdpi/exo_icon_rewind.png" qualifiers="mdpi-v4" type="drawable"/><file name="exo_controls_repeat_one" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-mdpi/exo_controls_repeat_one.png" qualifiers="mdpi-v4" type="drawable"/><file name="exo_icon_fastforward" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-mdpi/exo_icon_fastforward.png" qualifiers="mdpi-v4" type="drawable"/><file name="exo_notification_small_icon" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-mdpi/exo_notification_small_icon.png" qualifiers="mdpi-v4" type="drawable"/><file name="exo_notification_small_icon" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xxxhdpi/exo_notification_small_icon.png" qualifiers="xxxhdpi-v4" type="drawable"/><file name="shape_ads_bg" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable/shape_ads_bg.xml" qualifiers="" type="drawable"/><file name="shape_ads_bg_c" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable/shape_ads_bg_c.xml" qualifiers="" type="drawable"/><file name="simple_exo_ad_view" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/layout/simple_exo_ad_view.xml" qualifiers="" type="layout"/><file name="test" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/layout/test.xml" qualifiers="" type="layout"/><file name="simple_exo_playback_control_view" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/layout/simple_exo_playback_control_view.xml" qualifiers="" type="layout"/><file name="next_episode" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xhdpi/next_episode.png" qualifiers="xhdpi-v4" type="drawable"/><file name="next_episode" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xxhdpi/next_episode.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="simple_exo_speed" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/layout/simple_exo_speed.xml" qualifiers="" type="layout"/><file name="out_lefttoright" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/anim/out_lefttoright.xml" qualifiers="" type="anim"/><file name="in_righttoleft" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/anim/in_righttoleft.xml" qualifiers="" type="anim"/><file name="simple_exo_selection" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/layout/simple_exo_selection.xml" qualifiers="" type="layout"/><file name="simple_exo_selection_item" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/layout/simple_exo_selection_item.xml" qualifiers="" type="layout"/><file name="shape_pw_selection" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable/shape_pw_selection.xml" qualifiers="" type="drawable"/><file name="watermark_horizontal" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xhdpi/watermark_horizontal.png" qualifiers="xhdpi-v4" type="drawable"/><file name="watermark_horizontal" path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/main/res/drawable-xxhdpi/watermark_horizontal.png" qualifiers="xxhdpi-v4" type="drawable"/></source><source path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/build/generated/res/rs/debug"/><source path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule/src/debug/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="PlayerControlView">
+        <attr name="show_timeout"/>
+        <attr name="rewind_increment"/>
+        <attr name="fastforward_increment"/>
+        <attr name="repeat_toggle_modes"/>
+        <attr name="show_shuffle_button"/>
+        <attr name="controller_layout_id"/>
+        <attr name="player_fullscreen_image_selector"/>
+    </declare-styleable><declare-styleable name="PlayerView">
+        <attr format="boolean" name="use_artwork"/>
+        <attr format="color" name="shutter_background_color"/>
+        <attr name="default_artwork"/>
+        <attr format="boolean" name="use_controller"/>
+        <attr name="hide_on_touch"/>
+        <attr format="boolean" name="hide_during_ads"/>
+        <attr format="boolean" name="auto_show"/>
+        <attr name="resize_mode"/>
+        <attr name="surface_type"/>
+        <attr name="player_layout_id"/>
+        
+        <attr name="show_timeout"/>
+        <attr name="rewind_increment"/>
+        <attr name="fastforward_increment"/>
+        <attr name="repeat_toggle_modes"/>
+        <attr name="show_shuffle_button"/>
+        <attr name="controller_layout_id"/>
+        
+        <attr format="boolean" name="show_buffering"/>
+        
+        <attr format="boolean" name="keep_content_on_player_reset"/>
+    </declare-styleable><declare-styleable name="VideoPlayerView">
+        
+        <attr name="default_artwork"/>
+        
+        <attr format="reference" name="user_watermark"/>
+        
+        <attr name="hide_on_touch"/>
+        
+        <attr name="resize_mode"/>
+        
+        <attr name="surface_type"/>
+        
+        <attr name="show_timeout"/>
+        
+        <attr name="rewind_increment"/>
+        
+        <attr name="fastforward_increment"/>
+        
+        <attr name="player_layout_id"/>
+        
+        <attr name="controller_layout_id"/>
+        
+        <attr format="reference" name="player_replay_layout_id"/>
+        
+        <attr format="reference" name="player_error_layout_id"/>
+        
+        <attr format="reference" name="player_hint_layout_id"/>
+        
+        <attr format="reference" name="player_load_layout_id"/>
+        
+        <attr format="reference" name="player_preview_layout_id"/>
+        
+        <attr name="player_gesture_audio_layout_id"/>
+        
+        <attr name="player_gesture_bright_layout_id"/>
+        
+        <attr name="player_gesture_progress_layout_id"/>
+        
+        <attr format="boolean" name="player_list"/>
+        
+        <attr name="player_fullscreen_image_selector"/>
+        
+        <attr format="reference" name="player_back_image"/>
+        
+        <attr format="reference" name="player_custom_layout_id"/>
+        
+        <attr format="reference" name="screenshot_layout_id"/>
+        
+        <attr format="reference" name="ad_layout_id"/>
+    </declare-styleable><declare-styleable name="DefaultTimeBar">
+        <attr format="dimension" name="bar_height"/>
+        <attr format="dimension" name="touch_target_height"/>
+        <attr format="dimension" name="ad_marker_width"/>
+        <attr format="dimension" name="scrubber_enabled_size"/>
+        <attr format="dimension" name="scrubber_disabled_size"/>
+        <attr format="dimension" name="scrubber_dragged_size"/>
+        <attr format="reference" name="scrubber_drawable"/>
+        <attr format="color" name="played_color"/>
+        <attr format="color" name="scrubber_color"/>
+        <attr format="color" name="buffered_color"/>
+        <attr format="color" name="unplayed_color"/>
+        <attr format="color" name="ad_marker_color"/>
+        <attr format="color" name="played_ad_marker_color"/>
+    </declare-styleable><declare-styleable name="GestureControlView">
+        
+        <attr name="player_gesture_audio_layout_id"/>
+        
+        <attr name="player_gesture_bright_layout_id"/>
+        
+        <attr name="player_gesture_progress_layout_id"/>
+    </declare-styleable><declare-styleable name="exoVideoAnim">
+        <attr format="dimension" name="circleRadius"/>
+        <attr format="dimension" name="circleSpacing"/>
+        <attr format="integer" name="cycle"/>
+    </declare-styleable></configuration></mergedItems></merger>

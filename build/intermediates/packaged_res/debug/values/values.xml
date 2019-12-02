@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_video_speed_text">
+        <item>0.5x</item>
+        <item>1.0x</item>
+        <item>1.5x</item>
+        <item>2.0x</item>
+    </string-array>
+    <array name="exo_video_switch_text">
+        <item>super</item>
+        <item>high</item>
+        <item>standard</item>
+    </array>
+    <attr format="reference" name="controller_layout_id"/>
+    <attr format="reference" name="default_artwork"/>
+    <attr format="integer" name="fastforward_increment"/>
+    <attr format="boolean" name="hide_on_touch"/>
+    <attr format="reference" name="player_fullscreen_image_selector"/>
+    <attr format="reference" name="player_gesture_audio_layout_id"/>
+    <attr format="reference" name="player_gesture_bright_layout_id"/>
+    <attr format="reference" name="player_gesture_progress_layout_id"/>
+    <attr format="reference" name="player_layout_id"/>
+    <attr name="repeat_toggle_modes">
+        <flag name="none" value="0"/>
+        <flag name="one" value="1"/>
+        <flag name="all" value="2"/>
+    </attr>
+    <attr format="enum" name="resize_mode">
+        <enum name="fixed_16_9" value="0"/>
+        <enum name="fixed_4_3" value="1"/>
+        <enum name="match" value="2"/>
+        <enum name="fill" value="3"/>
+        <enum name="fit" value="4"/>
+        <enum name="origin" value="5"/>
+    </attr>
+    <attr format="integer" name="rewind_increment"/>
+    <attr format="reference" name="show_shuffle_button"/>
+    <attr format="integer" name="show_timeout"/>
+    <attr format="enum" name="surface_type">
+        <enum name="none" value="0"/>
+        <enum name="surface_view" value="1"/>
+        <enum name="texture_view" value="2"/>
+        <enum name="spherical_view" value="3"/>
+    </attr>
+    <color name="exo_edit_mode_background_color">#FFF4F3F0</color>
+    <color name="exo_error_message_background_color">#AA000000</color>
+    <color name="exo_player_background_color">#000000</color>
+    <color name="primary_dark">#3d3b3b</color>
+    <color name="simple_exo_color_33">#33000000</color>
+    <color name="simple_exo_color_switch_item">#18B582</color>
+    <color name="simple_exo_style_Accent">#FF4081</color>
+    <color name="simple_exo_style_color">#005fff</color>
+    <color name="timeBar_buffered_color">@android:color/white</color>
+    <color name="timeBar_played_color">#FF7000</color>
+    <color name="timeBar_scrubber_color">@color/simple_exo_color_switch_item</color>
+    <color name="timeBar_unplayed_color">#a5ffffff</color>
+    <dimen name="controls_title__marginRight">60dp</dimen>
+    <dimen name="dp30">40dp</dimen>
+    <dimen name="exo_media_button_height">35dp</dimen>
+    <dimen name="exo_media_button_height_2">50dp</dimen>
+    <dimen name="exo_media_button_width">35dp</dimen>
+    <dimen name="exo_media_button_width_2">60dp</dimen>
+    <dimen name="timeBar_bar_height">2dp</dimen>
+    <drawable name="exo_controls_fastforward">@drawable/exo_icon_fastforward</drawable>
+    <drawable name="exo_controls_next">@drawable/exo_icon_next</drawable>
+    <drawable name="exo_controls_pause">@drawable/exo_icon_pause</drawable>
+    <drawable name="exo_controls_play">@drawable/exo_icon_play</drawable>
+    <drawable name="exo_controls_previous">@drawable/exo_icon_previous</drawable>
+    <drawable name="exo_controls_rewind">@drawable/exo_icon_rewind</drawable>
+    <drawable name="exo_notification_fastforward">@drawable/exo_icon_fastforward</drawable>
+    <drawable name="exo_notification_next">@drawable/exo_icon_next</drawable>
+    <drawable name="exo_notification_pause">@drawable/exo_icon_pause</drawable>
+    <drawable name="exo_notification_play">@drawable/exo_icon_play</drawable>
+    <drawable name="exo_notification_previous">@drawable/exo_icon_previous</drawable>
+    <drawable name="exo_notification_rewind">@drawable/exo_icon_rewind</drawable>
+    <drawable name="exo_notification_stop">@drawable/exo_icon_stop</drawable>
+    <item name="exo_artwork" type="id"/>
+    <item name="exo_buffering" type="id"/>
+    <item name="exo_content_frame" type="id"/>
+    <item name="exo_controller" type="id"/>
+    <item name="exo_controller_barrage" type="id"/>
+    <item name="exo_controller_bottom" type="id"/>
+    <item name="exo_controller_left" type="id"/>
+    <item name="exo_controller_placeholder" type="id"/>
+    <item name="exo_controller_right" type="id"/>
+    <item name="exo_controller_top" type="id"/>
+    <item name="exo_controls_back" type="id"/>
+    <item name="exo_controls_title" type="id"/>
+    <item name="exo_default_play" type="id"/>
+    <item name="exo_duration" type="id"/>
+    <item name="exo_error_message" type="id"/>
+    <item name="exo_ffwd" type="id"/>
+    <item name="exo_land_progress" type="id"/>
+    <item name="exo_loading_show_text" type="id"/>
+    <item name="exo_next" type="id"/>
+    <item name="exo_overlay" type="id"/>
+    <item name="exo_pause" type="id"/>
+    <item name="exo_play" type="id"/>
+    <item name="exo_player_btn_hint_btn_id" type="id"/>
+    <item name="exo_player_error_btn_id" type="id"/>
+    <item name="exo_player_lock_btn_id" type="id"/>
+    <item name="exo_player_replay_btn_id" type="id"/>
+    <item name="exo_player_screenshot" type="id"/>
+    <item name="exo_player_watermark" type="id"/>
+    <item name="exo_position" type="id"/>
+    <item name="exo_prev" type="id"/>
+    <item name="exo_preview_image" type="id"/>
+    <item name="exo_preview_image_bottom" type="id"/>
+    <item name="exo_preview_play" type="id"/>
+    <item name="exo_progress" type="id"/>
+    <item name="exo_repeat_toggle" type="id"/>
+    <item name="exo_rew" type="id"/>
+    <item name="exo_screenshot" type="id"/>
+    <item name="exo_shuffle" type="id"/>
+    <item name="exo_shutter" type="id"/>
+    <item name="exo_subtitles" type="id"/>
+    <item name="exo_video_fullscreen" type="id"/>
+    <item name="exo_video_fullscreen2" type="id"/>
+    <item name="exo_video_selection" type="id"/>
+    <item name="exo_video_switch" type="id"/>
+    <string name="download_start_error">Failed to start download</string>
+    <string name="exo_controls_fastforward_description">"Fast-forward"</string>
+    <string name="exo_controls_fullscreen_description">Modo de pantalla completa</string>
+    <string name="exo_controls_next_description">"Next track"</string>
+    <string name="exo_controls_pause_description">"Pause"</string>
+    <string name="exo_controls_play_description">"Play"</string>
+    <string name="exo_controls_previous_description">"Previous track"</string>
+    <string name="exo_controls_repeat_all_description">"Repeat all"</string>
+    <string name="exo_controls_repeat_off_description">"Repeat none"</string>
+    <string name="exo_controls_repeat_one_description">"Repeat one"</string>
+    <string name="exo_controls_rewind_description">"Rewind"</string>
+    <string name="exo_controls_shuffle_description">Shuffle</string>
+    <string name="exo_controls_stop_description">"Stop"</string>
+    <string name="exo_controls_vr_description">VR mode</string>
+    <string name="exo_download_completed">Descarga de archivos completado</string>
+    <string name="exo_download_description">Descargar</string>
+    <string name="exo_download_downloading">Descargando</string>
+    <string name="exo_download_failed">No se ha podido descargar</string>
+    <string name="exo_download_notification_channel_name">Descargas</string>
+    <string name="exo_download_removing">Quitando descargas</string>
+    <string name="exo_fenge">/</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_play_btn_hnt">Continue to play</string>
+    <string name="exo_play_error_hint">Play exception, video address exception, or network unavailable</string>
+    <string name="exo_play_reminder">hint</string>
+    <string name="exo_play_wifi_hint_no">Your current network is not wifi, do you continue to watch</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
+    <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d×%2$d</string>
+    <string name="exo_track_role_alternate">Alternate</string>
+    <string name="exo_track_role_closed_captions">CC</string>
+    <string name="exo_track_role_commentary">Commentary</string>
+    <string name="exo_track_role_supplementary">Supplementary</string>
+    <string name="exo_track_selection_auto">Automático</string>
+    <string name="exo_track_selection_none">Ninguna</string>
+    <string name="exo_track_selection_title_audio">Audio</string>
+    <string name="exo_track_selection_title_text">Texto</string>
+    <string name="exo_track_selection_title_video">Vídeo</string>
+    <string name="exo_track_stereo">Stereo</string>
+    <string name="exo_track_surround">Surround sound</string>
+    <string name="exo_track_surround_5_point_1">5.1 surround sound</string>
+    <string name="exo_track_surround_7_point_1">7.1 surround sound</string>
+    <string name="exo_track_unknown">Desconocido</string>
+    <string name="hint_replay_list">replay</string>
+    <string name="media_error">The current video type is not found, or the current type is not supported, depending on the full version</string>
+    <string name="net_network_no_hint">Your current network is unavailable, please check your network</string>
+    <string name="track_selection_title">Select tracks</string>
+    <style name="AnimationRightFade">
+        <item name="android:windowEnterAnimation">@anim/in_righttoleft</item>
+        <item name="android:windowExitAnimation">@anim/out_lefttoright</item>
+    </style>
+    <style name="ExoMediaButton">
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">@dimen/exo_media_button_width</item>
+        <item name="android:layout_height">@dimen/exo_media_button_height</item>
+    </style>
+    <style name="ExoMediaButton.FastForward">
+        <item name="android:src">@drawable/exo_controls_fastforward</item>
+        <item name="android:contentDescription">@string/exo_controls_fastforward_description</item>
+    </style>
+    <style name="ExoMediaButton.Fullscreen">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:background">@android:color/holo_red_dark</item>
+        <item name="android:contentDescription">@null</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:visibility">visible</item>
+    </style>
+    <style name="ExoMediaButton.Next">
+        <item name="android:src">@drawable/exo_controls_next</item>
+        <item name="android:contentDescription">@string/exo_controls_next_description</item>
+    </style>
+    <style name="ExoMediaButton.Pause">
+        <item name="android:src">@drawable/exo_controls_pause</item>
+        <item name="android:contentDescription">@string/exo_controls_pause_description</item>
+    </style>
+    <style name="ExoMediaButton.Pause2">
+        <item name="android:layout_width">64dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:src">@drawable/ic_exo_pause</item>
+        <item name="android:contentDescription">@string/exo_controls_pause_description</item>
+    </style>
+    <style name="ExoMediaButton.Play">
+        <item name="android:src">@drawable/exo_controls_play</item>
+        <item name="android:contentDescription">@string/exo_controls_play_description</item>
+    </style>
+    <style name="ExoMediaButton.Play2">
+        <item name="android:layout_width">64dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:src">@drawable/ic_exo_start</item>
+        <item name="android:contentDescription">@string/exo_controls_play_description</item>
+    </style>
+    <style name="ExoMediaButton.Previous">
+        <item name="android:src">@drawable/exo_controls_previous</item>
+        <item name="android:contentDescription">@string/exo_controls_previous_description</item>
+    </style>
+    <style name="ExoMediaButton.Rewind">
+        <item name="android:src">@drawable/exo_controls_rewind</item>
+        <item name="android:contentDescription">@string/exo_controls_rewind_description</item>
+    </style>
+    <style name="ExoMediaButton.Shuffle">
+        <item name="android:src">@drawable/exo_controls_shuffle</item>
+        <item name="android:contentDescription">@string/exo_controls_shuffle_description</item>
+    </style>
+    <style name="ExoMediaControllerBottom">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:visibility">visible</item>
+    </style>
+    <style name="ExoMediaCurrPosition">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="ExoMediaDuration">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_weight">0</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="ExoMediaLandTimeBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginRight">1dp</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:visibility">gone</item>
+        <item name="bar_height">@dimen/timeBar_bar_height</item>
+        <item name="buffered_color">@color/timeBar_buffered_color</item>
+        <item name="played_color">@color/timeBar_played_color</item>
+        <item name="unplayed_color">@color/timeBar_unplayed_color</item>
+        <item name="scrubber_color">@color/timeBar_scrubber_color</item>
+    </style>
+    <style name="ExoMediaSpan">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:layout_weight">0</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="ExoMediaTextSelection">
+        <item name="android:id">@id/exo_video_selection</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:contentDescription">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/exo_exo_video_switch_selector</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="ExoMediaTextSwitch">
+        <item name="android:id">@id/exo_video_switch</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">50dp</item>
+        <item name="android:layout_weight">0</item>
+        <item name="android:background">@null</item>
+        <item name="android:contentDescription">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:textColor">@color/exo_exo_video_switch_selector</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="ExoMediaTimeBar">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginRight">1dp</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="bar_height">@dimen/timeBar_bar_height</item>
+        <item name="buffered_color">@color/timeBar_buffered_color</item>
+        <item name="played_color">@color/timeBar_played_color</item>
+        <item name="unplayed_color">@color/timeBar_unplayed_color</item>
+        <item name="scrubber_color">@color/timeBar_scrubber_color</item>
+    </style>
+    <style name="ExoMediaTitle">
+        <item name="android:id">@id/exo_controls_title</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical|start</item>
+        <item name="android:lines">1</item>
+        <item name="android:paddingLeft">35dp</item>
+        <item name="android:paddingRight">@dimen/controls_title__marginRight</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="ExoMediaTitleLayout">
+        <item name="android:id">@id/exo_controls_title</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:gravity">center_vertical|start</item>
+    </style>
+    <style name="MediaPreViewImage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:contentDescription">@null</item>
+    </style>
+    <style name="TrackSelectionDialogThemeOverlay" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="windowNoTitle">false</item>
+    </style>
+    <declare-styleable name="DefaultTimeBar">
+        <attr format="dimension" name="bar_height"/>
+        <attr format="dimension" name="touch_target_height"/>
+        <attr format="dimension" name="ad_marker_width"/>
+        <attr format="dimension" name="scrubber_enabled_size"/>
+        <attr format="dimension" name="scrubber_disabled_size"/>
+        <attr format="dimension" name="scrubber_dragged_size"/>
+        <attr format="reference" name="scrubber_drawable"/>
+        <attr format="color" name="played_color"/>
+        <attr format="color" name="scrubber_color"/>
+        <attr format="color" name="buffered_color"/>
+        <attr format="color" name="unplayed_color"/>
+        <attr format="color" name="ad_marker_color"/>
+        <attr format="color" name="played_ad_marker_color"/>
+    </declare-styleable>
+    <declare-styleable name="GestureControlView">
+        
+        <attr name="player_gesture_audio_layout_id"/>
+        
+        <attr name="player_gesture_bright_layout_id"/>
+        
+        <attr name="player_gesture_progress_layout_id"/>
+    </declare-styleable>
+    <declare-styleable name="PlayerControlView">
+        <attr name="show_timeout"/>
+        <attr name="rewind_increment"/>
+        <attr name="fastforward_increment"/>
+        <attr name="repeat_toggle_modes"/>
+        <attr name="show_shuffle_button"/>
+        <attr name="controller_layout_id"/>
+        <attr name="player_fullscreen_image_selector"/>
+    </declare-styleable>
+    <declare-styleable name="PlayerView">
+        <attr format="boolean" name="use_artwork"/>
+        <attr format="color" name="shutter_background_color"/>
+        <attr name="default_artwork"/>
+        <attr format="boolean" name="use_controller"/>
+        <attr name="hide_on_touch"/>
+        <attr format="boolean" name="hide_during_ads"/>
+        <attr format="boolean" name="auto_show"/>
+        <attr name="resize_mode"/>
+        <attr name="surface_type"/>
+        <attr name="player_layout_id"/>
+        
+        <attr name="show_timeout"/>
+        <attr name="rewind_increment"/>
+        <attr name="fastforward_increment"/>
+        <attr name="repeat_toggle_modes"/>
+        <attr name="show_shuffle_button"/>
+        <attr name="controller_layout_id"/>
+        
+        <attr format="boolean" name="show_buffering"/>
+        
+        <attr format="boolean" name="keep_content_on_player_reset"/>
+    </declare-styleable>
+    <declare-styleable name="VideoPlayerView">
+        
+        <attr name="default_artwork"/>
+        
+        <attr format="reference" name="user_watermark"/>
+        
+        <attr name="hide_on_touch"/>
+        
+        <attr name="resize_mode"/>
+        
+        <attr name="surface_type"/>
+        
+        <attr name="show_timeout"/>
+        
+        <attr name="rewind_increment"/>
+        
+        <attr name="fastforward_increment"/>
+        
+        <attr name="player_layout_id"/>
+        
+        <attr name="controller_layout_id"/>
+        
+        <attr format="reference" name="player_replay_layout_id"/>
+        
+        <attr format="reference" name="player_error_layout_id"/>
+        
+        <attr format="reference" name="player_hint_layout_id"/>
+        
+        <attr format="reference" name="player_load_layout_id"/>
+        
+        <attr format="reference" name="player_preview_layout_id"/>
+        
+        <attr name="player_gesture_audio_layout_id"/>
+        
+        <attr name="player_gesture_bright_layout_id"/>
+        
+        <attr name="player_gesture_progress_layout_id"/>
+        
+        <attr format="boolean" name="player_list"/>
+        
+        <attr name="player_fullscreen_image_selector"/>
+        
+        <attr format="reference" name="player_back_image"/>
+        
+        <attr format="reference" name="player_custom_layout_id"/>
+        
+        <attr format="reference" name="screenshot_layout_id"/>
+        
+        <attr format="reference" name="ad_layout_id"/>
+    </declare-styleable>
+    <declare-styleable name="exoVideoAnim">
+        <attr format="dimension" name="circleRadius"/>
+        <attr format="dimension" name="circleSpacing"/>
+        <attr format="integer" name="cycle"/>
+    </declare-styleable>
+</resources>

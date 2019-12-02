@@ -1,0 +1,62 @@
+apply plugin: 'com.android.library'
+apply from: '../constants.gradle'
+apply plugin: 'maven'
+android {
+    compileSdkVersion project.ext.compileSdkVersion
+    buildToolsVersion project.ext.buildToolsVersion
+    defaultConfig {
+        minSdkVersion project.ext.minSdkVersion
+        targetSdkVersion project.ext.targetSdkVersion
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    api project(modulePrefix + 'VideoPlayModule-core')
+    api project(modulePrefix + 'VideoPlayModule-dash')
+    api project(modulePrefix + 'VideoPlayModule-hls')
+    api project(modulePrefix + 'VideoPlayModule-smoothstreaming')
+    api project(modulePrefix + 'VideoPlayModule-utils')
+
+//    implementation 'com.android.support:appcompat-v7:26.1.0'
+//    + project.ext.libversion
+//    implementation 'androidx.appcompat:appcompat:'+ project.ext.libversion
+    implementation 'androidx.annotation:annotation:'+project.ext.annotationVersion
+    implementation 'com.android.support:design:' + project.ext.libversion
+    implementation 'androidx.media:media:1.0.0-rc01@aar'
+}
+
+//打包jar去github对外做引用
+uploadArchives {
+    repositories.mavenDeployer {
+        def mavenDirPath = file('/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule')
+        // 本地存放目录(自行选择)，可放在gradle.properties文件中引用
+        repository(url: "file://${mavenDirPath.absolutePath}")// 必须双引号，单引号不会转义$
+        pom.project {
+            groupId "com.android.library"// 可以随意取，一般取包名
+            artifactId "VideoPlayModule"// 可以随意取，一般取库的名字
+            version "1.0.0"// 版本号
+        }
+    }
+}
