@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.exoplayer:extension-cronet:2.10.4@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/249d80d80efa154bfa8ecdce458581fd/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/249d80d80efa154bfa8ecdce458581fd/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/249d80d80efa154bfa8ecdce458581fd/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.exoplayer/extension-cronet/2.10.4/2e317314a3f6ff150f846bb10414f4379b45ef64/extension-cronet-2.10.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.exoplayer/extension-cronet/2.10.4/1f0d930f4bb8dc890c40a27492124eef0221303d/extension-cronet-2.10.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
