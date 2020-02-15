@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/VideoPlayModule.iml" filepath="$PROJECT_DIR$/VideoPlayModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/VideoPlayModule-core.iml" filepath="$PROJECT_DIR$/core/VideoPlayModule-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dash/VideoPlayModule-dash.iml" filepath="$PROJECT_DIR$/dash/VideoPlayModule-dash.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hls/VideoPlayModule-hls.iml" filepath="$PROJECT_DIR$/hls/VideoPlayModule-hls.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smoothstreaming/VideoPlayModule-smoothstreaming.iml" filepath="$PROJECT_DIR$/smoothstreaming/VideoPlayModule-smoothstreaming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utils/VideoPlayModule-utils.iml" filepath="$PROJECT_DIR$/utils/VideoPlayModule-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../androidX_VideoLibrary.iml" filepath="$PROJECT_DIR$/../androidX_VideoLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../app/app.iml" filepath="$PROJECT_DIR$/../app/app.iml" />
+    </modules>
+  </component>
+</project>

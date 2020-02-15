@@ -1,0 +1,30 @@
+// Copyright (C) 2017 The Android Open Source Project
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//      http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+def rootDir = gradle.ext.exoplayerRoot
+def modulePrefix = ':'
+//if (gradle.ext.has('exoplayerModulePrefix')) {
+//    modulePrefix += gradle.ext.exoplayerModulePrefix
+//}
+
+include modulePrefix + 'VideoPlayModule-core'
+include modulePrefix + 'VideoPlayModule-dash'
+include modulePrefix + 'VideoPlayModule-hls'
+include modulePrefix + 'VideoPlayModule-smoothstreaming'
+include modulePrefix + 'VideoPlayModule-utils'
+
+project(modulePrefix + 'VideoPlayModule-core').projectDir = new File(rootDir, 'VideoPlayModule/core')
+project(modulePrefix + 'VideoPlayModule-dash').projectDir = new File(rootDir, 'VideoPlayModule/dash')
+project(modulePrefix + 'VideoPlayModule-hls').projectDir = new File(rootDir, 'VideoPlayModule/hls')
+project(modulePrefix + 'VideoPlayModule-smoothstreaming').projectDir = new File(rootDir, 'VideoPlayModule/smoothstreaming')
+project(modulePrefix + 'VideoPlayModule-utils').projectDir = new File(rootDir, 'VideoPlayModule/utils')

@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 apply plugin: 'com.android.library'
-apply from: '../../constants.gradle'
+apply from: '../constants.gradle'
 
 android {
     compileSdkVersion project.ext.compileSdkVersion
@@ -27,12 +27,12 @@ android {
         targetSdkVersion project.ext.targetSdkVersion
         consumerProguardFiles 'proguard-rules.txt'
 
-        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+//        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
 
         // The following argument makes the Android Test Orchestrator run its
         // "pm clear" command after each test invocation. This command ensures
         // that the app's state is completely cleared between tests.
-        testInstrumentationRunnerArguments clearPackageData: 'true'
+//        testInstrumentationRunnerArguments clearPackageData: 'true'
     }
 
     // Workaround to prevent circular dependency on project :testutils.
@@ -52,9 +52,17 @@ android {
         // debug {
         //    testCoverageEnabled = true
         // }
+
+
+            release {
+//                minifyEnabled true   //开启混淆
+//                zipAlignEnabled true  //压缩优化
+//                proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro' //默认的混淆文件以及我们指定的混淆文件
+//
+            }
     }
 
-    testOptions.unitTests.includeAndroidResources = true
+//    testOptions.unitTests.includeAndroidResources = true
 }
 
 dependencies {
@@ -79,11 +87,12 @@ dependencies {
 }
 
 ext {
-    javadocTitle = 'Core module'
+    javadocTitle = 'VideoPlayModule-core module'
 }
+// apply from: '../../javadoc_library.gradle'
 
 ext {
-    releaseArtifact = 'exoplayer-core'
-    releaseDescription = 'The ExoPlayer library core module.'
+    releaseArtifact = 'VideoPlayModule-core'
+    releaseDescription = 'The VideoPlayModule library core module.'
 }
-//apply from: '../../publish.gradle'
+// apply from: '../../publish.gradle'

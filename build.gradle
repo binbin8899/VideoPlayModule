@@ -1,23 +1,26 @@
 apply plugin: 'com.android.library'
-apply from: '../constants.gradle'
+apply from: 'constants.gradle'
 apply plugin: 'maven'
 android {
     compileSdkVersion project.ext.compileSdkVersion
-    buildToolsVersion project.ext.buildToolsVersion
+//    buildToolsVersion project.ext.buildToolsVersion
     defaultConfig {
         minSdkVersion project.ext.minSdkVersion
         targetSdkVersion project.ext.targetSdkVersion
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+//        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
     }
     buildTypes {
+
         release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//            minifyEnabled true   //开启混淆
+//            zipAlignEnabled true  //压缩优化
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro' //默认的混淆文件以及我们指定的混淆文件
+
         }
         debug {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//            minifyEnabled false
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
     lintOptions {
@@ -32,7 +35,7 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-
+//    com.google.android.exoplayertest
     api project(modulePrefix + 'VideoPlayModule-core')
     api project(modulePrefix + 'VideoPlayModule-dash')
     api project(modulePrefix + 'VideoPlayModule-hls')
@@ -47,16 +50,13 @@ dependencies {
     implementation 'androidx.media:media:1.0.0-rc01@aar'
 }
 
-//打包jar去github对外做引用
-uploadArchives {
-    repositories.mavenDeployer {
-        def mavenDirPath = file('/Users/sunny/Desktop/androidwork/androidX_VideoLibrary/VideoPlayModule')
-        // 本地存放目录(自行选择)，可放在gradle.properties文件中引用
-        repository(url: "file://${mavenDirPath.absolutePath}")// 必须双引号，单引号不会转义$
-        pom.project {
-            groupId "com.android.library"// 可以随意取，一般取包名
-            artifactId "VideoPlayModule"// 可以随意取，一般取库的名字
-            version "1.0.0"// 版本号
-        }
-    }
+ext {
+    javadocTitle = 'VideoPlayModule module'
 }
+//apply from: '../javadoc_library.gradle'
+
+ext {
+    releaseArtifact = 'VideoPlayModule'
+    releaseDescription = 'The VideoPlayModule library VideoPlayModule module.'
+}
+//apply from: '../publish.gradle'

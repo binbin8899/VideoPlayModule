@@ -370,11 +370,11 @@
         <attr format="color" name="played_ad_marker_color"/>
     </declare-styleable>
     <declare-styleable name="GestureControlView">
-        
+        <!--自定义音频手势布局-->
         <attr name="player_gesture_audio_layout_id"/>
-        
+        <!--自定义亮度手势布局-->
         <attr name="player_gesture_bright_layout_id"/>
-        
+        <!--自定义进度手势布局-->
         <attr name="player_gesture_progress_layout_id"/>
     </declare-styleable>
     <declare-styleable name="PlayerControlView">
@@ -397,66 +397,66 @@
         <attr name="resize_mode"/>
         <attr name="surface_type"/>
         <attr name="player_layout_id"/>
-        
+        <!-- PlayerControlView attributes -->
         <attr name="show_timeout"/>
         <attr name="rewind_increment"/>
         <attr name="fastforward_increment"/>
         <attr name="repeat_toggle_modes"/>
         <attr name="show_shuffle_button"/>
         <attr name="controller_layout_id"/>
-        
+        <!--显示缓冲-->
         <attr format="boolean" name="show_buffering"/>
-        
+        <!--保持播放器重置内容-->
         <attr format="boolean" name="keep_content_on_player_reset"/>
     </declare-styleable>
     <declare-styleable name="VideoPlayerView">
-        
+        <!--默认展位图-->
         <attr name="default_artwork"/>
-        
+        <!--水印占位图-->
         <attr format="reference" name="user_watermark"/>
-        
+        <!--预览是否有touch事件-->
         <attr name="hide_on_touch"/>
-        
+        <!--视频渲染方式-->
         <attr name="resize_mode"/>
-        
+        <!--view渲染方式-->
         <attr name="surface_type"/>
-        
+        <!--设置控制布局显示时间-->
         <attr name="show_timeout"/>
-        
+        <!--播放进度倒退增量-->
         <attr name="rewind_increment"/>
-        
+        <!--播放进度增量-->
         <attr name="fastforward_increment"/>
-        
+        <!--播放核心布局-->
         <attr name="player_layout_id"/>
-        
+        <!--播放核心控制布局-->
         <attr name="controller_layout_id"/>
-        
+        <!--自定义重播放布局-->
         <attr format="reference" name="player_replay_layout_id"/>
-        
+        <!--自定义错误布局-->
         <attr format="reference" name="player_error_layout_id"/>
-        
+        <!--自定义流量布局-->
         <attr format="reference" name="player_hint_layout_id"/>
-        
+        <!--自定义加载布局-->
         <attr format="reference" name="player_load_layout_id"/>
-        
+        <!--自定义预览布局-->
         <attr format="reference" name="player_preview_layout_id"/>
-        
+        <!--自定义音频手势布局-->
         <attr name="player_gesture_audio_layout_id"/>
-        
+        <!--自定义亮度手势布局-->
         <attr name="player_gesture_bright_layout_id"/>
-        
+        <!--自定义进度手势布局-->
         <attr name="player_gesture_progress_layout_id"/>
-        
+        <!--设置列表播放-->
         <attr format="boolean" name="player_list"/>
-        
+        <!--设置全屏按钮样式-->
         <attr name="player_fullscreen_image_selector"/>
-        
+        <!--设置按钮按钮样式-->
         <attr format="reference" name="player_back_image"/>
-        
+        <!--弹幕预览布局-->
         <attr format="reference" name="player_custom_layout_id"/>
-        
+        <!--截图布局-->
         <attr format="reference" name="screenshot_layout_id"/>
-        
+        <!--广告布局-->
         <attr format="reference" name="ad_layout_id"/>
     </declare-styleable>
     <declare-styleable name="exoVideoAnim">
